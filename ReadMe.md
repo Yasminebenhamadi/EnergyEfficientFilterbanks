@@ -18,7 +18,7 @@ Model training, quantization, and evaluation are performed in Python using Tenso
 
 ## Profiling on Apollo510 and ESP32-S3
 
-We provide a profiling script for the Apollo510 platform using **NeuralSPOT**. The ESP32-S3 profiling code is available under `...`.
+We provide a profiling script for the Apollo510 platform using **NeuralSPOT** in [**TinyBioacAI-Apollo5**](https://github.com/Yasminebenhamadi/TinyBioacAI-Apollo5). The ESP32-S3 profiling code is available in `firmware/esp32s3`.
 
 ## Inference Pipeline Implementation
 
