@@ -1,0 +1,9 @@
+numpy
+pandas
+PyYAML
+jinja2
+seaborn
+cmsisdsp
+tensorflow
+scikit-learn
+audiomentations
