@@ -1,0 +1,3 @@
+[submodule "firmware/TinyBioacAI-Apollo5"]
+	path = firmware/TinyBioacAI-Apollo5
+	url = https://github.com/Yasminebenhamadi/TinyBioacAI-Apollo5.git
