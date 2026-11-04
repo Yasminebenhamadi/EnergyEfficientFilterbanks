@@ -114,7 +114,7 @@ class MelSpecCMSIS:
         hanned = dsp.arm_mult_f32(window, self.hann_window)
 
         # arm_rfft_fast_f32 returns packed nfft/2 elements layed out as [real(0), real(N/2), real(1), imag(1) .... real(N/2-1), imag(N/2-1)]
-        fft = dsp.arm_rfft_fast_f32(self.fft_istance,
+        fft = dsp.arm_rfft_fast_f32(self.fft_instance,
                                     hanned,
                                     0) # ifftFlag=0 for forward FFT else inverse fft
         
